@@ -120,9 +120,9 @@ namespace identity
 
                   AllowedGrantTypes = GrantTypes.Code,
 
-                  RedirectUris = {"https://localhost:44359/signin-oidc"},
-                  FrontChannelLogoutUri = "https://localhost:44359/signout-oidc",
-                  PostLogoutRedirectUris = {"https://localhost:44359/signout-callback-oidc"},
+                  RedirectUris = {"https://localhost:44387/signin-oidc"},
+                  FrontChannelLogoutUri = "https://localhost:44387/signout-oidc",
+                  PostLogoutRedirectUris = {"https://localhost:44387/signout-callback-oidc"},
 
                   AllowOfflineAccess = true,
                   AllowedScopes = {"openid", "profile", "weatherapi.read"},

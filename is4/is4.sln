@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identity", "identity\identi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weathreapi", "weathreapi\weathreapi.csproj", "{F952E72C-D321-4C9B-8E35-42A69B6D3F8C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "weathremvc", "weathremvc\weathremvc.csproj", "{517AAAEA-0A34-45CA-A91F-92507826F031}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F952E72C-D321-4C9B-8E35-42A69B6D3F8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F952E72C-D321-4C9B-8E35-42A69B6D3F8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F952E72C-D321-4C9B-8E35-42A69B6D3F8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{517AAAEA-0A34-45CA-A91F-92507826F031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{517AAAEA-0A34-45CA-A91F-92507826F031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{517AAAEA-0A34-45CA-A91F-92507826F031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{517AAAEA-0A34-45CA-A91F-92507826F031}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

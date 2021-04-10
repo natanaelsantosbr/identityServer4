@@ -26,12 +26,11 @@ namespace weathreapi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAuthentication("Bearer")
-                .AddIdentityServerAuthentication("Bearer", options =>
-                {
-                    options.ApiName = "weathreapi";
-                    options.Authority = "https://localhost:44361";
-
-                });
+            .AddIdentityServerAuthentication("Bearer", options =>
+            {
+                options.ApiName = "weatherapi";
+                options.Authority = "https://localhost:44361";
+            });
 
             services.AddControllers();
         }
@@ -48,6 +47,7 @@ namespace weathreapi
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
