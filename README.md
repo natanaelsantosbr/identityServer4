@@ -13,5 +13,7 @@ dotnet ef migrations add InitialIdentityServerMigration -c ConfigurationDbContex
 dotnet ef database update -c PersistedGrantDbContext
 <br/><br/>
 dotnet ef database update -c ConfigurationDbContext
-<br/>
+<br/><br/>
+dotnet run bin/Debug/netcoreapp3.1/identity /seed
+<br/><br/><br/><br/><br/>
 Aproveitem!!!
